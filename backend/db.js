@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const MONGO_URI =
-  "mongodb+srv://shibu:shibu@cluster0.eif5p.mongodb.net/foodExpress?retryWrites=true&w=majority";
+  "xyz";
 mongoose.set("strictQuery", true);
 const connect = async () => {
   await mongoose.connect(MONGO_URI, { useNewUrlParser: true }, async (err) => {
